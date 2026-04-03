@@ -218,19 +218,6 @@ Skills: Python, Machine Learning, NLP, Pandas, Scikit-learn
 Experience: Worked on text classification, semantic search, and ranking systems.
 ```
 
-## Interview Explanation
-
-You can explain the project like this:
-
-> I built a full-stack AI resume screening system where recruiters can upload multiple resumes and compare them against a job description. On the backend, I used FastAPI for the API layer, PyPDF2 for resume text extraction, and TF-IDF with cosine similarity to rank resumes by relevance. I stored the results in MongoDB for persistence. On the frontend, I used plain HTML, CSS, and JavaScript to keep the UI simple and lightweight while still supporting multi-file upload and dynamic result rendering.
-
-Key interview talking points:
-
-- Demonstrates full-stack development
-- Shows practical NLP knowledge
-- Uses an explainable ML ranking approach
-- Includes file handling, APIs, and database integration
-- Can be extended later with embeddings, authentication, and recruiter dashboards
 
 ## Future Improvements
 
