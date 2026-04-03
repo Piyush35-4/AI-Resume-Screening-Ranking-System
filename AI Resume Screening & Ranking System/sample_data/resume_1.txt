@@ -1,0 +1,4 @@
+John Doe
+Python Developer
+Skills: Python, FastAPI, MongoDB, NLP, Scikit-learn, REST API
+Experience: Built machine learning applications for document analysis and candidate screening.

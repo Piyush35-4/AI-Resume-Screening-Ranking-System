@@ -1,0 +1,4 @@
+Jane Smith
+Frontend Developer
+Skills: HTML, CSS, JavaScript, UI design
+Experience: Built responsive dashboards and web interfaces.

@@ -1,0 +1,4 @@
+Rahul Kumar
+Data Scientist
+Skills: Python, Machine Learning, NLP, Pandas, Scikit-learn
+Experience: Worked on text classification, semantic search, and ranking systems.

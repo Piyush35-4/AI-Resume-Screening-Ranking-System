@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Screening & Ranking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="hero">
+            <p class="eyebrow">AI-Powered Hiring Tool</p>
+            <h1>AI Resume Screening & Ranking System</h1>
+            <p class="hero-copy">
+                Upload multiple resumes, paste a job description, and instantly rank candidates by relevance.
+            </p>
+        </header>
+
+        <main class="grid">
+            <section class="card form-card">
+                <h2>Screen Resumes</h2>
+                <form id="resumeForm">
+                    <label for="jobDescription">Job Description</label>
+                    <textarea id="jobDescription" name="jobDescription" rows="8" placeholder="Paste the full job description here..." required></textarea>
+
+                    <label for="resumeFiles">Upload PDF Resumes</label>
+                    <input id="resumeFiles" name="resumeFiles" type="file" accept=".pdf" multiple required>
+
+                    <button type="submit" id="submitButton">Rank Resumes</button>
+                </form>
+                <p id="statusMessage" class="status-message"></p>
+            </section>
+
+            <section class="card results-card">
+                <div class="results-header">
+                    <h2>Ranked Results</h2>
+                    <span id="resultCount" class="badge">0 resumes</span>
+                </div>
+
+                <div class="table-wrapper">
+                    <table id="resultsTable">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Resume</th>
+                                <th>Score (%)</th>
+                                <th>Preview</th>
+                            </tr>
+                        </thead>
+                        <tbody id="resultsBody">
+                            <tr>
+                                <td colspan="4" class="empty-state">Results will appear here after ranking.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
